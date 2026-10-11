@@ -1,5 +1,7 @@
 # FighterAPI MCP server
 
+[![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/FighterAPI) [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/fighterapi)
+
 **The fight data API.** Results, judges' scorecards and the full stat sheet for nearly every UFC fight since 2000, round by round, plus PFL (2012 on) and Bellator (2009 to 2024) results, fighters and ratings with the same key. Fighter profiles, career rates, our own ratings and sportsbook moneylines (UFC from June 2020, PFL from April 2023, Bellator from January 2022 to 2024). REST API and MCP server. 500 free credits, no card.
 
 Website: https://fighterapi.com · Docs: https://fighterapi.com/docs · Get a key: https://fighterapi.com/signup
