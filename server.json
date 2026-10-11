@@ -1,0 +1,93 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/fighterapi",
+  "title": "FighterAPI",
+  "description": "UFC fights since 2000, plus PFL and Bellator: results, round stats, fighters and odds. REST and MCP.",
+  "version": "1.1.4",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/noahowsh/fighterapi-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://github.com/noahowsh/fighterapi-mcp/raw/main/assets/logo-400x400.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
+  "homepage": "https://fighterapi.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fighterapi.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your FighterAPI API key. Get a free key with 500 credits at fighterapi.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_events",
+      "description": "Cards by year and status, with the main event",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_fighters",
+      "description": "Find fighters by name or nickname",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_event",
+      "description": "A card's fights with results, method, round, time and judges' scores",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schedule",
+      "description": "Upcoming fights with current moneylines where a book has posted one",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_ratings",
+      "description": "Our fighter ratings (Elo from every UFC result since 2000)",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_fight",
+      "description": "One fight: result, full stat sheets, round-by-round lines, ratings and odds",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_fighter",
+      "description": "Profile, UFC record by method, career rates, rating and recent fights",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_fighter_fights",
+      "description": "A fighter's full UFC history with stats, ratings and closing lines",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_leaders",
+      "description": "Career leaderboards from every fight's stat sheet",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_odds",
+      "description": "Opening, closing and current moneylines by sportsbook for a fight (5) or a card (10)",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_line_movement",
+      "description": "Snapshots of each posted line before a fight",
+      "readOnlyHint": true
+    }
+  ]
+}
