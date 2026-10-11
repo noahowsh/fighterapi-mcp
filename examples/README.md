@@ -1,6 +1,6 @@
 # FighterAPI examples
 
-Runnable examples for the [FighterAPI API](https://fighterapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
+Runnable examples for the [FighterAPI](https://fighterapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
 
 UFC, PFL and Bellator fight data API. Every tool is a REST call: `POST https://mcp.fighterapi.com/v1/<tool_name>` with a JSON body and an `x-api-key` header. The same tools are available over MCP at `https://mcp.fighterapi.com/mcp`.
 
