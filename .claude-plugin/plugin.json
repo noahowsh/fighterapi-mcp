@@ -1,0 +1,11 @@
+{
+  "name": "fighterapi-skills",
+  "description": "16 Claude skills for MMA analytics and betting models with FighterAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "version": "1.0.0",
+  "author": {
+    "name": "FighterAPI"
+  },
+  "homepage": "https://fighterapi.com",
+  "repository": "https://github.com/noahowsh/fighterapi-mcp",
+  "license": "MIT"
+}
