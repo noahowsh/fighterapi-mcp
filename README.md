@@ -22,6 +22,15 @@ Sixteen Claude skills that turn Claude into an MMA analyst wired to these tools:
 git clone https://github.com/noahowsh/fighterapi-mcp
 ```
 
+Or install them as a Claude Code plugin:
+
+```
+/plugin marketplace add noahowsh/fighterapi-mcp
+/plugin install fighterapi-skills@fighterapi
+```
+
+Or with the skills CLI: `npx skills add noahowsh/fighterapi-mcp`.
+
 Point Claude at the `skills/` folder (for Claude Code, copy or symlink the skill folders into `~/.claude/skills/` or a project's `.claude/skills/`), connect the MCP server below, and ask. Start with [`skills/dispatch`](skills/dispatch/SKILL.md) if you are unsure which skill fits. Full catalog: [`skills/README.md`](skills/README.md).
 
 ## Useful pages

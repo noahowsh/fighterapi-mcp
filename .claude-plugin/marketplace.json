@@ -1,0 +1,14 @@
+{
+  "name": "fighterapi",
+  "description": "MMA analytics skills for Claude Code, wired to the FighterAPI MCP server",
+  "owner": {
+    "name": "FighterAPI"
+  },
+  "plugins": [
+    {
+      "name": "fighterapi-skills",
+      "source": "./",
+      "description": "16 MMA analytics and betting-model skills"
+    }
+  ]
+}
