@@ -14,6 +14,25 @@ You:    "Show the opening and closing moneyline for every main event this year."
 Claude: [calls get_odds]
 ```
 
+## Skills
+
+Sixteen Claude skills that turn Claude into an MMA analyst wired to these tools: fight and card lookup, fighter scouting, per-round striking and grappling rates, Elo by weight class, odds comparison and devigging, favourite calibration, edge detection and backtesting. They are plain `SKILL.md` files in [`skills/`](skills/).
+
+```bash
+git clone https://github.com/noahowsh/fighterapi-mcp
+```
+
+Point Claude at the `skills/` folder (for Claude Code, copy or symlink the skill folders into `~/.claude/skills/` or a project's `.claude/skills/`), connect the MCP server below, and ask. Start with [`skills/dispatch`](skills/dispatch/SKILL.md) if you are unsure which skill fits. Full catalog: [`skills/README.md`](skills/README.md).
+
+## Useful pages
+
+- Docs and every tool: https://fighterapi.com/docs
+- Guides: https://fighterapi.com/guides
+- UFC odds: https://fighterapi.com/odds
+- Data coverage: https://fighterapi.com/data
+- Pricing: https://fighterapi.com/pricing
+- Compare: [ESPN MMA API](https://fighterapi.com/compare/espn-mma-api), [Kaggle UFC dataset](https://fighterapi.com/compare/kaggle-ufc-dataset), [Sportradar and SportsDataIO](https://fighterapi.com/compare/sportradar-sportsdataio), [UFC Stats scraper](https://fighterapi.com/compare/ufc-stats-scraper)
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
