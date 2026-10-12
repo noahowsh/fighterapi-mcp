@@ -2,7 +2,7 @@
 
 [![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/FighterAPI) [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/fighterapi)
 
-**The fight data API.** Results, judges' scorecards and the full stat sheet for nearly every UFC fight since 2000, round by round, plus PFL (2012 on) and Bellator (2009 to 2024) results, fighters and ratings with the same key. Fighter profiles, career rates, our own ratings and sportsbook moneylines (UFC from June 2020, PFL from April 2023, Bellator from January 2022 to 2024). REST API and MCP server. 500 free credits, no card.
+**The fight data API.** Results, judges' scorecards and the full stat sheet for nearly every UFC fight since 2000, round by round, plus PFL (2012 on) and Bellator (2009 to 2024) results, fighters and ratings with the same key. Fighter profiles, career rates, our own ratings and sportsbook moneylines (UFC from June 2020, PFL from April 2023, Bellator from January 2022 to 2024). REST API and MCP server. 500 free credits every month, no card.
 
 Website: https://fighterapi.com · Docs: https://fighterapi.com/docs · Get a key: https://fighterapi.com/signup
 
@@ -109,7 +109,7 @@ Coverage by season, read live from the database: https://fighterapi.com/docs
 
 ## Pricing
 
-500 free credits on signup, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://fighterapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://fighterapi.com/pricing
 
 ## Attribution
 
