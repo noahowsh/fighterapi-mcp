@@ -5,7 +5,22 @@
   "author": {
     "name": "FighterAPI"
   },
-  "homepage": "https://fighterapi.com",
+  "homepage": "https://fighterapi.com/skills",
   "repository": "https://github.com/noahowsh/fighterapi-mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "FighterAPI Skills",
+  "documentationUrl": "https://fighterapi.com/docs",
+  "privacyPolicyUrl": "https://fighterapi.com/privacy",
+  "termsOfServiceUrl": "https://fighterapi.com/terms",
+  "supportUrl": "mailto:support@fighterapi.com",
+  "keywords": [
+    "mma",
+    "ufc",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "fighterapi"
+  ]
 }
