@@ -127,3 +127,28 @@ Fight data from public ESPN data; sportsbook lines from ESPN and The Odds API; r
 ## License
 
 MIT for the contents of this repository. Data terms as above.
+
+## Use with Codex
+
+Add this repo as a Codex plugin marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add noahowsh/fighterapi-mcp
+```
+
+Then open the plugin directory in Codex and install `fighterapi-skills` from the `fighterapi` marketplace. The plugin bundles the skills in `skills/` and the FighterAPI MCP server (https://mcp.fighterapi.com/mcp). Set your key first (free at https://fighterapi.com/signup):
+
+```bash
+export FIGHTERAPI_API_KEY=your_key
+```
+
+Codex sends it as a bearer token.
+
+## Use with Gemini CLI
+
+```bash
+export FIGHTERAPI_API_KEY=your_key
+gemini extensions install https://github.com/noahowsh/fighterapi-mcp
+```
+
+The extension adds the FighterAPI MCP server (https://mcp.fighterapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://fighterapi.com/signup.

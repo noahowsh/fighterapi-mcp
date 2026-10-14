@@ -1,0 +1,37 @@
+{
+  "name": "fighterapi-skills",
+  "version": "1.0.0",
+  "description": "16 Claude skills for MMA analytics and betting models with FighterAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "author": {
+    "name": "FighterAPI",
+    "url": "https://fighterapi.com"
+  },
+  "homepage": "https://fighterapi.com/skills",
+  "repository": "https://github.com/noahowsh/fighterapi-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mma",
+    "ufc",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "fighterapi"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "FighterAPI Skills",
+    "shortDescription": "MMA data and betting-model skills",
+    "longDescription": "Skills and a remote MCP server for MMA analytics with FighterAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+    "developerName": "FighterAPI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://fighterapi.com",
+    "privacyPolicyURL": "https://fighterapi.com/privacy",
+    "termsOfServiceURL": "https://fighterapi.com/terms"
+  }
+}

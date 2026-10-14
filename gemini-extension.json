@@ -1,0 +1,14 @@
+{
+  "name": "fighterapi",
+  "version": "1.0.0",
+  "description": "FighterAPI MCP server for MMA data: schedules, results, stats and odds.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "fighterapi": {
+      "httpUrl": "https://mcp.fighterapi.com/mcp",
+      "headers": {
+        "x-api-key": "${FIGHTERAPI_API_KEY}"
+      }
+    }
+  }
+}
