@@ -42,6 +42,27 @@ Point Claude at the `skills/` folder (for Claude Code, copy or symlink the skill
 - Pricing: https://fighterapi.com/pricing
 - Compare: [ESPN MMA API](https://fighterapi.com/compare/espn-mma-api), [Kaggle UFC dataset](https://fighterapi.com/compare/kaggle-ufc-dataset), [Sportradar and SportsDataIO](https://fighterapi.com/compare/sportradar-sportsdataio), [UFC Stats scraper](https://fighterapi.com/compare/ufc-stats-scraper)
 
+## Python
+
+The official Python client is on PyPI: [fighterapi](https://pypi.org/project/fighterapi/).
+
+```bash
+pip install fighterapi
+export FIGHTERAPI_API_KEY=sk_live_...
+```
+
+```python
+from fighterapi import Client
+
+client = Client()
+
+events = client.list_events(status="final", limit=3)["events"]
+for e in events:
+    print(e["event_id"], e["event_date"], e["name"])
+```
+
+Typed errors for a bad key, no credits left, not found and rate limits, automatic retries, and `to_dataframe` for pandas.
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
