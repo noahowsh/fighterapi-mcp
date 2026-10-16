@@ -1,0 +1,34 @@
+{
+  "name": "fighterapi-mcp",
+  "version": "1.0.0",
+  "description": "UFC fights since 2000, plus PFL and Bellator: results, round stats, fighters and odds. REST and MCP.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "fighterapi": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mma",
+    "sports",
+    "api",
+    "odds",
+    "stats"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahowsh/fighterapi-mcp"
+  },
+  "homepage": "https://fighterapi.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}

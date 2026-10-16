@@ -14,6 +14,22 @@ You:    "Show the opening and closing moneyline for every main event this year."
 Claude: [calls get_odds]
 ```
 
+
+## Run it locally (stdio)
+
+Most clients connect to `https://mcp.fighterapi.com/mcp` directly. For a client that launches a local process instead:
+
+```bash
+git clone https://github.com/noahowsh/fighterapi-mcp.git && cd fighterapi-mcp && npm install
+FIGHTERAPI_API_KEY=your_key node index.js
+```
+
+```json
+{ "mcpServers": { "fighterapi": { "command": "node", "args": ["/path/to/fighterapi-mcp/index.js"], "env": { "FIGHTERAPI_API_KEY": "your_key" } } } }
+```
+
+It forwards to the hosted server with your key, so every tool and credit cost is the same.
+
 ## Skills
 
 Sixteen Claude skills that turn Claude into an MMA analyst wired to these tools: fight and card lookup, fighter scouting, per-round striking and grappling rates, Elo by weight class, odds comparison and devigging, favourite calibration, edge detection and backtesting. They are plain `SKILL.md` files in [`skills/`](skills/).
