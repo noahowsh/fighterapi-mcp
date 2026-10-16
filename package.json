@@ -1,6 +1,6 @@
 {
   "name": "fighterapi-mcp",
-  "version": "1.0.0",
+  "version": "1.1.6",
   "description": "UFC fights since 2000, plus PFL and Bellator: results, round stats, fighters and odds. REST and MCP.",
   "type": "module",
   "main": "index.js",

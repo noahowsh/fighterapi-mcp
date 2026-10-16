@@ -3,7 +3,7 @@
   "name": "io.github.noahowsh/fighterapi",
   "title": "FighterAPI",
   "description": "UFC fights since 2000, plus PFL and Bellator: results, round stats, fighters and odds. REST and MCP.",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/noahowsh/fighterapi-mcp",
