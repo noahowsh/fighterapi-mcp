@@ -64,8 +64,8 @@ Real example (UFC 298, Bet365): `a_close` -130 and `b_close` 110 gave `a_close_p
 ## Coverage Limits
 
 - UFC opening and closing lines start with the June 2020 cards. PFL starts April 2023. Bellator covers January 2022 to 2024 with fewer books.
-- A median of 5 to 7 books per fight. From mid-2024 ESPN's feed is often a single book, so thin cards have thin comparisons.
-- Pre-fight snapshots (`get_line_movement`) exist only for recent fights: ESPN once a day from October 2026, The Odds API hourly in the two days before. For older fights, open vs close from `get_odds` is the movement you have.
+- A median of 5 to 7 books per fight. From mid-2024 a fight is often priced by a single book, so thin cards have thin comparisons.
+- Pre-fight snapshots (`get_line_movement`) exist only for recent fights: once a day from October 2026, hourly in the two days before. For older fights, open vs close from `get_odds` is the movement you have.
 
 ## Finding the Best Price
 

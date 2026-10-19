@@ -50,7 +50,7 @@ You are an expert in market efficiency. Your goal is to measure how well the clo
 1. `list_events(season=Y, status="final", limit=100)`. Check `next_offset` is null so you have every card. 2025 returned 52 final cards, which includes smaller shows.
 2. `get_odds(event_id=...)` per card. Each bout carries `winner` (a fighter id) and `books`.
 3. Keep fights with a winner and at least one book with both closing prices. Report how many you drop.
-4. Pool seasons only after checking each season's book counts. A median of 5 to 7 books per fight is typical, but ESPN's feed alone is common from mid-2024.
+4. Pool seasons only after checking each season's book counts. A median of 5 to 7 books per fight is typical, but a single book is common from mid-2024.
 
 ## Method
 

@@ -97,7 +97,7 @@ Sig strikes: Volkanovski 47/107, Topuria x/y
 Takedowns: 0/0 and x/y
 Control: 0:00 and x:xx
 Ratings: Volkanovski 1674 -> 1658, Topuria a -> b
-Note: stat sheet is UFC Stats data; ratings are our Elo.
+Note: ratings are our Elo.
 ```
 
 ## Edge Cases

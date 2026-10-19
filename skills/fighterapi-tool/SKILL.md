@@ -29,7 +29,7 @@ Use the site's own numbers and do not extend them.
 - UFC: every card since 2000 with results, method, round, time and judges' scores. Stat sheets and round-by-round lines for nearly every fight.
 - PFL from 2012 and Bellator from 2009 to 2024: results, fighters and ratings. No stat sheets for those promotions in recent years.
 - Moneylines and total rounds only, no props. UFC opening and closing lines start with the June 2020 cards, PFL from April 2023, Bellator from January 2022 to 2024.
-- Pre-fight line snapshots exist only for recent fights (ESPN once a day from October 2026, The Odds API hourly in the two days before a fight).
+- Pre-fight line snapshots exist only for recent fights (once a day from October 2026, hourly in the two days before a fight).
 - Ratings are our own Elo built from UFC results.
 - Pass `league` (`mma` default, `pfl`, `bellator`) to any tool.
 

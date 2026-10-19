@@ -149,7 +149,7 @@ Leagues: mma (default, UFC), pfl, bellator (pass `league` to any tool).
 - Every UFC card since 2000 with results, method, round, time and judges' scorecards; the full stat sheet, round by round, for nearly every card
 - PFL (2012 on) and Bellator (2009 to 2024) results, fighters and ratings; no stat sheets exist for those promotions in recent years
 - Fighter profiles with reach, stance and gym, career rates by method, and our Elo ratings from every UFC result since 2000
-- Moneylines and total rounds, no props: UFC opening and closing lines from June 2020 (a median of 5 to 7 books per fight; ESPN's own feed is usually one book since mid-2024), PFL from April 2023 and Bellator from January 2022 to 2024 with fewer books; pre-fight snapshots: ESPN's once a day from October 2026, The Odds API's every hour in the two days before a fight
+- Moneylines and total rounds, no props: UFC opening and closing lines from June 2020 (a median of 5 to 7 books per fight; usually one book since mid-2024), PFL from April 2023 and Bellator from January 2022 to 2024 with fewer books; pre-fight snapshots: once a day from October 2026, and every hour in the two days before a fight
 
 Coverage by season, read live from the database: https://fighterapi.com/docs
 
@@ -159,7 +159,7 @@ Coverage by season, read live from the database: https://fighterapi.com/docs
 
 ## Attribution
 
-Fight data from public ESPN data; sportsbook lines from ESPN and The Odds API; round-by-round statistics compiled by UFC Stats (FightMetric). Ratings are ours. Not affiliated with the UFC, PFL, Bellator or any promotion.
+Ratings are ours. Not affiliated with the UFC, PFL, Bellator or any promotion.
 
 ## License
 

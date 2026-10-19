@@ -109,7 +109,7 @@ Recommendation: use multiplicative for even fights, and check power or Shin when
 3. If a book posts only one side, drop that book for that fight.
 4. For the best price on each side, shop prices (`odds-explorer`), but keep the consensus probability from the median.
 
-ESPN's feed is often one book per fight from mid-2024. With one book, say the consensus is that one book.
+From mid-2024 a fight often has just one book. With one book, say the consensus is that one book.
 
 ## Open to Close
 
