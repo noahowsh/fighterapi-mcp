@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "fighterapi-skills",
-      "source": "./",
+      "source": "./plugin",
       "description": "16 MMA analytics and betting-model skills"
     }
   ]
