@@ -17,7 +17,7 @@ Every other skill in this pack gets its data here. This skill owns the 11 MCP to
 
 ```bash
 curl -s -X POST https://mcp.fighterapi.com/v1/search_fighters \
-  -H "x-api-key: $FIGHTERAPI_KEY" -H "content-type: application/json" \
+  -H "x-api-key: YOUR_API_KEY" -H "content-type: application/json" \
   -d '{"query":"Topuria","limit":3}'
 # {"data":{"fighters":[{"fighter_id":"4350812","name":"Ilia Topuria","nickname":"El Matador","weight_class":"Lightweight", ...}],"count":2}}
 ```
