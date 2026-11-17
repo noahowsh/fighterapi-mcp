@@ -4,7 +4,7 @@
 
 **The fight data API.** Results, judges' scorecards and the full stat sheet for nearly every UFC fight since 2000, round by round, plus PFL (2012 on) and Bellator (2009 to 2024) results, fighters and ratings with the same key. Fighter profiles, career rates, our own ratings and sportsbook moneylines (UFC from June 2020, PFL from April 2023, Bellator from January 2022 to 2024). REST API and MCP server. 500 free credits every month, no card.
 
-Website: https://fighterapi.com · Docs: https://fighterapi.com/docs · Get a key: https://fighterapi.com/signup
+Website: https://fighterapi.com?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp · Docs: https://fighterapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp · Get a key: https://fighterapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 
 ```
 You:    "What is Islam Makhachev's significant strike accuracy by round across his UFC fights?"
@@ -51,12 +51,12 @@ Point Claude at the `skills/` folder (for Claude Code, copy or symlink the skill
 
 ## Useful pages
 
-- Docs and every tool: https://fighterapi.com/docs
-- Guides: https://fighterapi.com/guides
-- UFC odds: https://fighterapi.com/odds
-- Data coverage: https://fighterapi.com/data
-- Pricing: https://fighterapi.com/pricing
-- Compare: [ESPN MMA API](https://fighterapi.com/compare/espn-mma-api), [Kaggle UFC dataset](https://fighterapi.com/compare/kaggle-ufc-dataset), [Sportradar and SportsDataIO](https://fighterapi.com/compare/sportradar-sportsdataio), [UFC Stats scraper](https://fighterapi.com/compare/ufc-stats-scraper)
+- Docs and every tool: https://fighterapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+- Guides: https://fighterapi.com/guides?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+- UFC odds: https://fighterapi.com/odds?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+- Data coverage: https://fighterapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+- Pricing: https://fighterapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+- Compare: [ESPN MMA API](https://fighterapi.com/compare/espn-mma-api?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp), [Kaggle UFC dataset](https://fighterapi.com/compare/kaggle-ufc-dataset?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp), [Sportradar and SportsDataIO](https://fighterapi.com/compare/sportradar-sportsdataio?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp), [UFC Stats scraper](https://fighterapi.com/compare/ufc-stats-scraper?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp)
 
 ## Python
 
@@ -124,15 +124,15 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://fighterapi.com/signup.
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://fighterapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 
 ## Use it in
 
-- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.fighterapi.com/mcp` as a remote MCP server. Step-by-step for each: https://fighterapi.com/mcp
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.fighterapi.com/mcp` as a remote MCP server. Step-by-step for each: https://fighterapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 - **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/fighterapi-mcp`
 - **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
-- **Google Sheets:** `=SDHQ("fighterapi","list_events")` fills a live table: https://sportsdatahq.com/sheets
-- **REST:** `POST https://mcp.fighterapi.com/v1/<tool>` with an `x-api-key` header: https://fighterapi.com/docs
+- **Google Sheets:** `=SDHQ("fighterapi","list_events")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+- **REST:** `POST https://mcp.fighterapi.com/v1/<tool>` with an `x-api-key` header: https://fighterapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 
 ## Tools (11)
 
@@ -159,11 +159,11 @@ Leagues: mma (default, UFC), pfl, bellator (pass `league` to any tool).
 - Fighter profiles with reach, stance and gym, career rates by method, and our Elo ratings from every UFC result since 2000
 - Moneylines and total rounds, no props: UFC opening and closing lines from June 2020 (a median of 5 to 7 books per fight; usually one book since mid-2024), PFL from April 2023 and Bellator from January 2022 to 2024 with fewer books; pre-fight snapshots: once a day from October 2026, and every hour in the two days before a fight
 
-Coverage by season, read live from the database: https://fighterapi.com/docs
+Coverage by season, read live from the database: https://fighterapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://fighterapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://fighterapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 
 ## Attribution
 
@@ -181,7 +181,7 @@ Add this repo as a Codex plugin marketplace, then install the plugin:
 codex plugin marketplace add noahowsh/fighterapi-mcp
 ```
 
-Then open the plugin directory in Codex and install `fighterapi-skills` from the `fighterapi` marketplace. The plugin bundles the skills in `skills/` and the FighterAPI MCP server (https://mcp.fighterapi.com/mcp). Set your key first (free at https://fighterapi.com/signup):
+Then open the plugin directory in Codex and install `fighterapi-skills` from the `fighterapi` marketplace. The plugin bundles the skills in `skills/` and the FighterAPI MCP server (https://mcp.fighterapi.com/mcp). Set your key first (free at https://fighterapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp):
 
 ```bash
 export FIGHTERAPI_API_KEY=your_key
@@ -196,4 +196,4 @@ export FIGHTERAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/fighterapi-mcp
 ```
 
-The extension adds the FighterAPI MCP server (https://mcp.fighterapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://fighterapi.com/signup.
+The extension adds the FighterAPI MCP server (https://mcp.fighterapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://fighterapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
