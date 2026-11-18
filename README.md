@@ -124,7 +124,7 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://fighterapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://fighterapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp.
 
 ## Use it in
 
@@ -196,4 +196,4 @@ export FIGHTERAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/fighterapi-mcp
 ```
 
-The extension adds the FighterAPI MCP server (https://mcp.fighterapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://fighterapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
+The extension adds the FighterAPI MCP server (https://mcp.fighterapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://fighterapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp.
