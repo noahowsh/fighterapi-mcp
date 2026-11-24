@@ -56,7 +56,6 @@ Point Claude at the `skills/` folder (for Claude Code, copy or symlink the skill
 - UFC odds: https://fighterapi.com/odds?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 - Data coverage: https://fighterapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
 - Pricing: https://fighterapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp
-- Compare: [ESPN MMA API](https://fighterapi.com/compare/espn-mma-api?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp), [Kaggle UFC dataset](https://fighterapi.com/compare/kaggle-ufc-dataset?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp), [Sportradar and SportsDataIO](https://fighterapi.com/compare/sportradar-sportsdataio?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp), [UFC Stats scraper](https://fighterapi.com/compare/ufc-stats-scraper?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp)
 
 ## Python
 
