@@ -32,14 +32,28 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 
 ## Skills
 
-Claude skills for MMA now live in the SportsDataHQ skills marketplace, one plugin per sport, alongside skills for eight more sports: [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills).
+4 Claude skills for UFC ship in this repo, plus 14 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live FighterAPI tool call, and odds are information only: no stakes, no picks.
+
+Claude Code:
 
 ```
-/plugin marketplace add sports-data-hq/sportsdatahq-skills
-/plugin install mma-data@sportsdatahq
+/plugin marketplace add sports-data-hq/fighterapi-mcp
+/plugin install mma-data@fighterapi
+/plugin install sports-analytics-core@fighterapi
 ```
 
-The plugin connects the FighterAPI MCP server; every number comes from a live call.
+Codex: `codex plugin marketplace add sports-data-hq/fighterapi-mcp`. Any agent that reads skills: `npx skills add sports-data-hq/fighterapi-mcp`.
+
+| Skill | What it does |
+|---|---|
+| `ufc-elo-baseline` | The Elo gap between two fighters as an expected win probability, beside the market as information |
+| `ufc-fight-preview` | One-page fight preview: records by method, striking and grappling rates, Elo, opposition and the line |
+| `ufc-fighter-profile` | A fighter's record by method, career rates per 15 minutes, recent fights and rating history |
+| `ufc-finish-profile` | How a fighter wins and loses: method and round, finish rate, against the weight class |
+
+The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
+
+All nine sports' skills live in [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills). The copies here are synced from there, so please open issues and pull requests there.
 
 ## Useful pages
 

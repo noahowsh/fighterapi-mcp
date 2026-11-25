@@ -1,0 +1,54 @@
+{
+  "skill": "ufc-finish-profile",
+  "tasks": [
+    {
+      "prompt": "How does Islam Makhachev win his fights?",
+      "expect": [
+        "get_fighter and get_fighter_fights called",
+        "method counts with denominators",
+        "computed figures labelled as computed"
+      ]
+    },
+    {
+      "prompt": "Who finishes the most at welterweight since 2021?",
+      "expect": [
+        "get_leaders with finish_rate, weight_class and since",
+        "min_fights stated",
+        "no prediction"
+      ]
+    },
+    {
+      "prompt": "Is this fighter chinny?",
+      "expect": [
+        "declines to measure chin",
+        "reports losses by KO/TKO with counts"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "does he finish fights",
+      "KO or submission",
+      "how often does she go to decision",
+      "is he chinny",
+      "finish rate for Makhachev",
+      "who finishes the most at lightweight",
+      "how does Poirier win his fights",
+      "round of finish for Volkanovski",
+      "how many of his wins are by knockout",
+      "has she ever been submitted"
+    ],
+    "should_not": [
+      "preview UFC this Saturday",
+      "who wins Jones vs Aspinall",
+      "Elo of the top flyweights",
+      "fighter profile for Topuria",
+      "moneyline movement for the main event",
+      "reach and height comparison",
+      "takedown defense leaders",
+      "how do UFC scorecards work",
+      "boxing finish rates",
+      "history of the UFC"
+    ]
+  }
+}

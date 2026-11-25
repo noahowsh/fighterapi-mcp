@@ -1,0 +1,18 @@
+{
+  "name": "fighterapi",
+  "owner": {
+    "name": "SportsDataHQ"
+  },
+  "plugins": [
+    {
+      "name": "sports-analytics-core",
+      "source": "./plugins/sports-analytics-core",
+      "description": "Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information."
+    },
+    {
+      "name": "mma-data",
+      "source": "./plugins/mma-data",
+      "description": "UFC and MMA analysis skills on FighterAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the FighterAPI MCP server."
+    }
+  ]
+}

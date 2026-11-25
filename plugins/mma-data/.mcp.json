@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fighterapi": {
+      "type": "http",
+      "url": "https://mcp.fighterapi.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mma-data",
+  "displayName": "FighterAPI: ufc and mma skills",
+  "version": "2.0.0",
+  "description": "UFC and MMA analysis skills on FighterAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the FighterAPI MCP server.",
+  "author": {
+    "name": "SportsDataHQ",
+    "url": "https://sportsdatahq.com"
+  },
+  "homepage": "https://fighterapi.com/skills",
+  "repository": "https://github.com/sports-data-hq/sportsdatahq-skills",
+  "license": "MIT",
+  "keywords": [
+    "ufc",
+    "mma",
+    "fight-stats",
+    "elo",
+    "sports-data",
+    "fighterapi"
+  ]
+}

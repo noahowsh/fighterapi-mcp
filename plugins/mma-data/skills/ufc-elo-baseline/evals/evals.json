@@ -1,0 +1,55 @@
+{
+  "skill": "ufc-elo-baseline",
+  "tasks": [
+    {
+      "prompt": "Baseline probability for Jones vs Aspinall from ratings",
+      "expect": [
+        "get_ratings or get_fighter called",
+        "gap and probability with the scale assumption stated",
+        "flags for layoffs or few fights"
+      ]
+    },
+    {
+      "prompt": "Use the stat sheet from last night's fight to predict it",
+      "expect": [
+        "refuses in-fight stats as leakage",
+        "offers a pre-fight ratings baseline instead",
+        "uses ratings before the fight"
+      ]
+    },
+    {
+      "prompt": "Who is the top-rated welterweight?",
+      "expect": [
+        "get_ratings with weight_class",
+        "fights counted for the top names",
+        "no betting language"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "what does Elo say about this fight",
+      "baseline probability for Jones vs Aspinall",
+      "how strong is each fighter by rating",
+      "who is the highest rated lightweight",
+      "did the rating see that upset coming",
+      "rating gap between the two",
+      "pre-fight rating for Makhachev",
+      "rating history for Pereira",
+      "is the favorite rated higher",
+      "ratings only baseline for the main event"
+    ],
+    "should_not": [
+      "preview the main event",
+      "how does he finish fights",
+      "strikes landed per minute for Topuria",
+      "UFC card schedule this weekend",
+      "line movement for the fight",
+      "build an MMA model",
+      "NFL Elo ratings",
+      "tennis Elo for clay",
+      "who won last night",
+      "career record of Poirier"
+    ]
+  }
+}

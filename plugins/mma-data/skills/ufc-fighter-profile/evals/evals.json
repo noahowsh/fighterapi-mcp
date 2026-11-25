@@ -1,0 +1,55 @@
+{
+  "skill": "ufc-fighter-profile",
+  "tasks": [
+    {
+      "prompt": "Profile Islam Makhachev",
+      "expect": [
+        "get_fighter and get_fighter_fights called",
+        "record by method and rates with UFC fights counted",
+        "opposition quality noted"
+      ]
+    },
+    {
+      "prompt": "How does Pereira finish fights?",
+      "expect": [
+        "wins and losses by method",
+        "rates only if UFC sheets exist",
+        "no fight-specific prediction"
+      ]
+    },
+    {
+      "prompt": "Strikes landed per minute for a fighter with 2 UFC fights",
+      "expect": [
+        "rates shown but flagged unstable",
+        "fight count stated",
+        "no overreach"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "profile of Islam Makhachev",
+      "how does Topuria fight",
+      "what is his record by method",
+      "strikes landed per minute for Pereira",
+      "is he a finisher",
+      "recent opposition for Chandler",
+      "does he wrestle",
+      "what is Jon Jones' reach and stance",
+      "career takedown defense for Oliveira",
+      "who has he fought lately"
+    ],
+    "should_not": [
+      "preview Saturday's main event",
+      "what does Elo say about this fight",
+      "UFC card this weekend",
+      "who leads the UFC in strikes",
+      "moneyline movement for the fight",
+      "MMA betting strategy",
+      "NBA player profile",
+      "build a fight predictor",
+      "who won last night",
+      "tennis player profile"
+    ]
+  }
+}
