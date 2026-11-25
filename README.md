@@ -32,22 +32,14 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 
 ## Skills
 
-Sixteen Claude skills that turn Claude into an MMA analyst wired to these tools: fight and card lookup, fighter scouting, per-round striking and grappling rates, Elo by weight class, odds comparison and devigging, favourite calibration, edge detection and backtesting. They are plain `SKILL.md` files in [`skills/`](skills/).
-
-```bash
-git clone https://github.com/noahowsh/fighterapi-mcp
-```
-
-Or install them as a Claude Code plugin:
+Claude skills for MMA now live in the SportsDataHQ skills marketplace, one plugin per sport, alongside skills for eight more sports: [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills).
 
 ```
-/plugin marketplace add noahowsh/fighterapi-mcp
-/plugin install fighterapi-skills@fighterapi
+/plugin marketplace add sports-data-hq/sportsdatahq-skills
+/plugin install mma-data@sportsdatahq
 ```
 
-Or with the skills CLI: `npx skills add noahowsh/fighterapi-mcp`.
-
-Point Claude at the `skills/` folder (for Claude Code, copy or symlink the skill folders into `~/.claude/skills/` or a project's `.claude/skills/`), connect the MCP server below, and ask. Start with [`skills/dispatch`](skills/dispatch/SKILL.md) if you are unsure which skill fits. Full catalog: [`skills/README.md`](skills/README.md).
+The plugin connects the FighterAPI MCP server; every number comes from a live call.
 
 ## Useful pages
 
@@ -174,19 +166,13 @@ MIT for the contents of this repository. Data terms as above.
 
 ## Use with Codex
 
-Add this repo as a Codex plugin marketplace, then install the plugin:
+The SportsDataHQ skills marketplace also works in Codex (it reads `.agents/plugins/marketplace.json`):
 
 ```bash
-codex plugin marketplace add noahowsh/fighterapi-mcp
+codex plugin marketplace add sports-data-hq/sportsdatahq-skills
 ```
 
-Then open the plugin directory in Codex and install `fighterapi-skills` from the `fighterapi` marketplace. The plugin bundles the skills in `skills/` and the FighterAPI MCP server (https://mcp.fighterapi.com/mcp). Set your key first (free at https://fighterapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=fighterapi-mcp):
-
-```bash
-export FIGHTERAPI_API_KEY=your_key
-```
-
-Codex sends it as a bearer token.
+Install `mma-data`, which bundles the MMA skills and the FighterAPI MCP server.
 
 ## Use with Gemini CLI
 
