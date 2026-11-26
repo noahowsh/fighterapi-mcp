@@ -44,3 +44,4 @@ Data: get_schedule, get_fighter, get_fighter_fights, get_ratings, get_odds | UFC
 ## Rules
 - Career rates need fight time: show UFC fights counted. Under 4 UFC fights, rates are unstable.
 - Odds are information about the market: no pick, stake or bet.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

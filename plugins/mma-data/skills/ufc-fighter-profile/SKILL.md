@@ -13,12 +13,12 @@ A fighter's profile is his record, how he wins and loses, and the rates that des
 ## Before you start
 - For anything across games, seasons or players, apply the sports-data-preflight checks first (ids from search, the season convention, one league, enough data).
 - Tools come from the FighterAPI MCP server (`https://mcp.fighterapi.com/mcp`). Call them; never fill in a number from memory.
-- Rates are per 15 minutes of fight time; accuracy and defense are fractions. Round-by-round stats exist for UFC cards (not Contender Series). The UFC is the default; pass `league` for pfl or bellator. Ids from `search_fighters(name)` (1 cr).
+- Rates are per 15 minutes of fight time; accuracy and defense are fractions. Round-by-round stats exist for UFC cards (not Contender Series). The UFC is the default; pass `league` for pfl or bellator. Ids from `search_fighters(query)` (1 cr).
 - Career rates (significant strikes landed and absorbed, accuracy, defense, takedowns, takedown accuracy and defense, submission attempts, control share) are UFC only and are computed from stat sheets; fights with no sheet are missing from them. Say how many UFC fights the rates cover.
 - A fighter's ratings are our Elo from UFC results; fights in other organisations do not move them.
 
 ## Default path (about 11 credits)
-1. **Resolve the fighter.** `search_fighters(name)` (1 cr).
+1. **Resolve the fighter.** `search_fighters(query)` (1 cr).
 2. **The profile.** `get_fighter(fighter_id)` (5 cr): age, height, reach, stance, gym, record by method, career rates per 15 minutes, current and peak rating and the last five fights.
 3. **The history.** `get_fighter_fights(fighter_id, limit: 10)` (5 cr): opponents, results, methods, rounds, strikes and takedowns per fight, rating before and after.
 4. **Weight class context (optional).** `get_ratings(weight_class)` (2 cr): where he sits among active fighters.
@@ -44,6 +44,7 @@ Data: search_fighters, get_fighter, get_fighter_fights[, get_ratings] | UFC
 - Every number names its tool (the Data line, plus inline where it could be doubted) and every rate shows its sample size.
 - If a tool returns too little, say "not enough data" and stop; do not estimate or borrow another sample.
 - Odds and prices are information about the market only: no picks, leans, stakes, payouts or sportsbook links.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts
 - "Profile Islam Makhachev"

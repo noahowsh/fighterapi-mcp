@@ -13,13 +13,13 @@ A rating is a compact summary of a fighter's results against the opponents he fa
 ## Before you start
 - For anything across games, seasons or players, apply the sports-data-preflight checks first (ids from search, the season convention, one league, enough data).
 - Tools come from the FighterAPI MCP server (`https://mcp.fighterapi.com/mcp`). Call them; never fill in a number from memory.
-- Rates are per 15 minutes of fight time; accuracy and defense are fractions. Round-by-round stats exist for UFC cards (not Contender Series). The UFC is the default; pass `league` for pfl or bellator. Ids from `search_fighters(name)` (1 cr).
+- Rates are per 15 minutes of fight time; accuracy and defense are fractions. Round-by-round stats exist for UFC cards (not Contender Series). The UFC is the default; pass `league` for pfl or bellator. Ids from `search_fighters(query)` (1 cr).
 - Our ratings are an Elo built from the promotion's own results (the UFC since 2000). They do not see fights outside the promotion, so a fighter back from another organisation is under-rated or unrated.
 - The expected score for fighter A is 1 / (1 + 10^(-(R_A - R_B) / 400)), assuming the 400-point Elo scale. Confirm the scale on a past fight: `get_fight(bout_id)` returns each fighter's rating before and after, so the change after a result tells you the scale's K and shape. If you cannot confirm it, say the conversion is an assumption.
 - **Leakage rule.** For a fight that has not happened, there are no stat sheets to use. For a fight that has happened, never use that fight's own strikes, takedowns, rounds or result to build the baseline: use the ratings before the fight (`get_fight` gives them) and earlier fights only. If the user asks you to predict a past fight using its own stat sheet, refuse that part and say why.
 
 ## Default path (about 30 credits)
-1. **Resolve the fighters.** `search_fighters(name)` (1 cr each).
+1. **Resolve the fighters.** `search_fighters(query)` (1 cr each).
 2. **Ratings.** `get_ratings(weight_class)` (2 cr), or `get_fighter(fighter_id)` (5 cr) for current and peak rating, record and last five fights.
 3. **Rating history.** `get_fighter_fights(fighter_id, limit: 10)` (5 cr): rating before and after each fight, opponents and results, so a recent big move or a long layoff is visible.
 4. **Baseline.** Apply the expected-score formula to the pre-fight ratings; give the gap and the probability.
@@ -46,6 +46,7 @@ Data: search_fighters, get_ratings, get_fighter, get_fighter_fights[, get_odds] 
 - Every number names its tool (the Data line, plus inline where it could be doubted) and every rate shows its sample size.
 - If a tool returns too little, say "not enough data" and stop; do not estimate or borrow another sample.
 - Odds and prices are information about the market only: no picks, leans, stakes, payouts or sportsbook links.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts
 - "What does Elo say about Jones vs Aspinall?"

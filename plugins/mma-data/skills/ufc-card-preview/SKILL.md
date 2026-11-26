@@ -36,3 +36,4 @@ Data: get_event, get_odds, get_ratings, get_fighter | prices captured <time>
 - Show how many UFC fights each Elo rests on; a fighter with fewer than 5 UFC fights has a weak rating, so say so next to the gap.
 - Odds exist from June 2020 on; older cards have none.
 - A late change: if a bout in `get_event` has no price, say the line is not posted rather than guessing.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
