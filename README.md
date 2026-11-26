@@ -46,7 +46,7 @@ Codex: `codex plugin marketplace add sports-data-hq/fighterapi-mcp`. Any agent t
 
 | Skill | What it does |
 |---|---|
-| `ufc-card-preview` | A whole UFC card at a glance rather than one fight |
+| `ufc-card-preview` | A whole card on one page: records, our Elo and the market's probability for every bout |
 | `ufc-elo-baseline` | The Elo gap between two fighters as an expected win probability, beside the market as information |
 | `ufc-fight-preview` | One-page fight preview: records by method, striking and grappling rates, Elo, opposition and the line |
 | `ufc-fighter-profile` | A fighter's record by method, career rates per 15 minutes, recent fights and rating history |
