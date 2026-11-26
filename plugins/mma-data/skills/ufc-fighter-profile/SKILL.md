@@ -2,7 +2,7 @@
 name: ufc-fighter-profile
 description: "Use when the user asks who a UFC fighter is or how he or she fights, in fan or analyst wording: 'tell me about Pantoja', 'scouting report on Chimaev', 'what is Poirier's record', 'how many significant strikes does he land', 'does he wrestle a lot', 'who has he fought lately', 'fighter stats for Gaethje'. Use this whenever a single fighter is named with a request for numbers or a rundown. Load it for short fragments and follow-ups too, even with no name given, instead of answering from memory or going straight to the raw tools. Reports bio, record by method, career rates per 15 minutes with fight time counted, recent fights and rating history. Not for a specific fight's preview (see ufc-fight-preview), a ratings baseline (see ufc-elo-baseline), a finishing breakdown by method and round (see ufc-finish-profile) or stat leaderboards (call get_leaders)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

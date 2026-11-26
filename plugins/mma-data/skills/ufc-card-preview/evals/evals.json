@@ -1,54 +1,62 @@
 {
- "skill": "ufc-card-preview",
- "tasks": [
-  {
-   "prompt": "Preview this Saturday's UFC card",
-   "expect": [
-    "get_schedule then get_event",
-    "get_odds for the whole card",
-    "Elo and no-margin probability per bout",
-    "no picks"
-   ]
-  },
-  {
-   "prompt": "Which fights on the main card are closest?",
-   "expect": [
-    "closeness by market probability",
-    "fight counts behind ratings"
-   ]
-  },
-  {
-   "prompt": "Give me a parlay for UFC 325",
-   "expect": [
-    "declines to build a parlay",
-    "offers the card as information"
-   ]
-  }
- ],
- "triggers": {
-  "should": [
-   "preview UFC 325",
-   "break down this weekend's UFC card",
-   "who's favoured on the main card",
-   "which fights Saturday are closest",
-   "give me the full card with records and ratings",
-   "main event and co-main preview",
-   "UFC Fight Night lineup and odds",
-   "the whole card at a glance",
-   "rank the bouts on Saturday by how close they are",
-   "what does the market think of every fight this weekend"
+  "skill": "ufc-card-preview",
+  "tasks": [
+    {
+      "prompt": "Preview this Saturday's UFC card",
+      "expect": [
+        "get_schedule then get_event",
+        "get_odds for the whole card",
+        "Elo and no-margin probability per bout",
+        "no picks"
+      ]
+    },
+    {
+      "prompt": "Which fights on the main card are closest?",
+      "expect": [
+        "closeness by market probability",
+        "fight counts behind ratings"
+      ]
+    },
+    {
+      "prompt": "Give me a parlay for UFC 325",
+      "expect": [
+        "declines to build a parlay",
+        "offers the card as information"
+      ]
+    },
+    {
+      "prompt": "Which fights on the next card have a long layoff or a late change?",
+      "expect": [
+        "layoff in days from get_fighter recent fights",
+        "single-book or unpriced bouts labelled thin or late change",
+        "no pick"
+      ]
+    }
   ],
-  "should_not": [
-   "break down Jones vs Aspinall in depth",
-   "Topuria's fight history",
-   "how does Pereira usually win",
-   "who leads the UFC in takedowns",
-   "explain Elo",
-   "boxing card this weekend",
-   "PFL results",
-   "should I bet the underdog",
-   "line movement on one fight",
-   "NFL game preview"
-  ]
- }
+  "triggers": {
+    "should": [
+      "preview UFC 325",
+      "break down this weekend's UFC card",
+      "who's favoured on the main card",
+      "which fights Saturday are closest",
+      "give me the full card with records and ratings",
+      "main event and co-main preview",
+      "UFC Fight Night lineup and odds",
+      "the whole card at a glance",
+      "rank the bouts on Saturday by how close they are",
+      "what does the market think of every fight this weekend"
+    ],
+    "should_not": [
+      "break down Jones vs Aspinall in depth",
+      "Topuria's fight history",
+      "how does Pereira usually win",
+      "who leads the UFC in takedowns",
+      "explain Elo",
+      "boxing card this weekend",
+      "PFL results",
+      "should I bet the underdog",
+      "line movement on one fight",
+      "NFL game preview"
+    ]
+  }
 }
