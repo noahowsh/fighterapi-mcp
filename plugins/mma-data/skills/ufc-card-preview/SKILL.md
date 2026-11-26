@@ -2,7 +2,7 @@
 name: ufc-card-preview
 description: "Use when the user wants a whole UFC card at a glance rather than one fight: 'preview UFC 325', 'break down this weekend's card', 'who's favoured on the main card', 'which fights on Saturday are closest', 'give me the card with records and ratings', 'what's the main event and co-main look like'. Lists every bout with both fighters' records, our Elo, the market's no-margin probability and how close each fight is, then flags the biggest gaps between rating and market as information. Never says who to bet on. Not for one fight in depth (see ufc-fight-preview), one fighter's history (see ufc-fighter-profile) or how fighters finish (see ufc-fighter-profile)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

@@ -2,7 +2,7 @@
 name: ufc-fight-preview
 description: "Use when the user wants to know how a UFC, PFL or Bellator fight or card shapes up, in fan or analyst wording: 'Pimblett vs Gaethje', 'who wins Saturday', 'main event breakdown', 'UFC 300 preview', 'striker or grappler, who has the edge', 'is the favorite live', 'fight night preview', 'how does Makhachev match up with Tsarukyan', 'who takes this one', 'who is the pick on fight night', 'UFC preview, no boxing'. Use this whenever two fighters are named together or a card or bout is the subject. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Produces a one-page report: records by method, striking and grappling rates for and against, our Elo, recent opposition and the moneylines. Not for one fighter's profile or finishing (see ufc-fighter-profile), a ratings-only baseline (see ufc-elo-baseline), stat leaders (call get_leaders) or modeling."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 
