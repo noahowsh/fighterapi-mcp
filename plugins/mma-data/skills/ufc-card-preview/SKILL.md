@@ -31,9 +31,15 @@ Closest by market: <bouts>. Biggest rating vs market gaps (information only): <b
 Data: get_event, get_odds, get_ratings, get_fighter | prices captured <time>
 ```
 
+## When there's no card
+
+If no card is scheduled in the window asked about, preview the next card on `get_schedule`, or the most recent completed card with results if the user wanted a recap, and say which in the first line.
+
 ## Rules
 - Information only: no picks, leans, parlays, stakes, payouts or sportsbook links.
 - Show how many UFC fights each Elo rests on; a fighter with fewer than 5 UFC fights has a weak rating, so say so next to the gap.
 - Odds exist from June 2020 on; older cards have none.
 - A late change: if a bout in `get_event` has no price, say the line is not posted rather than guessing.
+- Complete before writing: every step in the default path is called for both sides before the preview is written. If a call fails or returns nothing, say which section is missing rather than writing around it.
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

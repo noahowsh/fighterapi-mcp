@@ -15,7 +15,7 @@ A rating is a compact summary of a fighter's results against the opponents he fa
 - Tools come from the FighterAPI MCP server (`https://mcp.fighterapi.com/mcp`). Call them; never fill in a number from memory.
 - Rates are per 15 minutes of fight time; accuracy and defense are fractions. Round-by-round stats exist for UFC cards (not Contender Series). The UFC is the default; pass `league` for pfl or bellator. Ids from `search_fighters(query)` (1 cr).
 - Our ratings are an Elo built from the promotion's own results (the UFC since 2000). They do not see fights outside the promotion, so a fighter back from another organisation is under-rated or unrated.
-- The expected score for fighter A is 1 / (1 + 10^(-(R_A - R_B) / 400)), assuming the 400-point Elo scale. Confirm the scale on a past fight: `get_fight(bout_id)` returns each fighter's rating before and after, so the change after a result tells you the scale's K and shape. If you cannot confirm it, say the conversion is an assumption.
+- The expected score for fighter A is 1 / (1 + 10^(-(R_A - R_B) / 400)). Our ratings use the standard 400-point Elo scale, so this conversion is exact for them.
 - **Leakage rule.** For a fight that has not happened, there are no stat sheets to use. For a fight that has happened, never use that fight's own strikes, takedowns, rounds or result to build the baseline: use the ratings before the fight (`get_fight` gives them) and earlier fights only. If the user asks you to predict a past fight using its own stat sheet, refuse that part and say why.
 
 ## Default path (about 30 credits)
@@ -27,12 +27,12 @@ A rating is a compact summary of a fighter's results against the opponents he fa
 6. **A past fight (optional).** `get_fight(bout_id)` (5 cr) for the ratings before it and the closing price; only ratings and the result for scoring the baseline afterwards.
 
 ## Trust and limits
-A rating gap of 100 is about a 64% expected score if the 400-point scale holds. Ratings are less certain for fighters with few UFC fights (under 4), after a long layoff (over 18 months) or after a weight-class change; say which applies. A baseline ignores styles, injuries, camp and weight cuts. It is a starting point, and the fight preview skill holds the rest of the picture.
+A rating gap of 100 is about a 64% expected score. Ratings are less certain for fighters with few UFC fights (under 4), after a long layoff (over 18 months) or after a weight-class change; say which applies. A baseline ignores styles, injuries, camp and weight cuts. It is a starting point, and the fight preview skill holds the rest of the picture.
 
 ## Output template
 ```
 <Fighter A> (rating <r>, UFC fights <n>) vs <Fighter B> (rating <r>, <n>) | <weight class> | <event, date>
-Rating gap <g> -> baseline expected win probability <A x%> / <B y%> (assumes the 400-point scale: <confirmed from get_fight / not confirmed>)
+Rating gap <g> -> baseline expected win probability <A x%> / <B y%>
 Rating history: <A: last 3 changes> | <B: ...>
 Flags: <few fights / layoff / weight-class change / outside-promotion record>
 Market (if asked): <A implied %> / <B %> (information only)
@@ -46,6 +46,7 @@ Data: search_fighters, get_ratings, get_fighter, get_fighter_fights[, get_odds] 
 - Every number names its tool (the Data line, plus inline where it could be doubted) and every rate shows its sample size.
 - If a tool returns too little, say "not enough data" and stop; do not estimate or borrow another sample.
 - Odds and prices are information about the market only: no picks, leans, stakes, payouts or sportsbook links.
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts

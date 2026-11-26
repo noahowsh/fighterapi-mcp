@@ -41,7 +41,13 @@ What to watch: 2-3 bullets from the numbers
 Data: get_schedule, get_fighter, get_fighter_fights, get_ratings, get_odds | UFC
 ```
 
+## When the bout isn't booked
+
+If the fight the user names isn't on a card, don't stop to ask. Give the matchup as a hypothetical: both fighters' records by method, recent form, rates per 15 minutes and the ratings gap, labelled hypothetical, with the date of each fighter's last fight. If one of them is booked against someone else, say so and offer that bout.
+
 ## Rules
 - Career rates need fight time: show UFC fights counted. Under 4 UFC fights, rates are unstable.
 - Odds are information about the market: no pick, stake or bet.
+- Complete before writing: every step in the default path is called for both sides before the preview is written. If a call fails or returns nothing, say which section is missing rather than writing around it.
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
