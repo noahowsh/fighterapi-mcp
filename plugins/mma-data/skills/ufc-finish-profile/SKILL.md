@@ -1,6 +1,6 @@
 ---
 name: ufc-finish-profile
-description: "Use when the user wants to know how a UFC fighter wins and loses: 'does he finish fights', 'KO or submission', 'how often does she go to decision', 'is he chinny', 'finish rate for Makhachev', 'who finishes the most at lightweight'. Breaks a fighter's UFC wins and losses by method and round, with finish rate, rounds, and how that compares with the weight class. Not for a fight preview (see ufc-fight-preview), the Elo baseline (see ufc-elo-baseline) or a general fighter profile (see ufc-fighter-profile)."
+description: "Use when the user asks how a UFC fighter wins or loses, in fan or analyst wording: 'is he a knockout artist', 'does she submit people', 'goes to decision a lot?', 'can he take a punch', 'has he been finished', 'fades in round 3?', 'finishing rate at 170', 'who ends fights early', 'is he a stopper or a point fighter', 'how often does she go the distance', 'who has the most stoppages in the division'. Use this whenever a fighter's finishes, stoppages, decisions or durability are the subject. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Breaks a fighter's UFC wins and losses by method and round, with finish rate, rounds, and how that compares with the weight class. Not for a fight preview (see ufc-fight-preview), the Elo baseline (see ufc-elo-baseline) or a general profile with striking and grappling rates (see ufc-fighter-profile)."
 metadata:
   version: 2.0.0
   author: SportsDataHQ
