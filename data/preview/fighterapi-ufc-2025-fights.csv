@@ -1,0 +1,101 @@
+league,season,event,date,card_segment,match_number,weight_class,title_fight,fighter_a,fighter_b,winner,method,end_round,end_clock,duration_seconds,scheduled_rounds
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,14,Lightweight,f,Nurullo Aliev,Joe Solecki,Nurullo Aliev,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,13,Women's Strawweight,f,Fatima Kline,Viktoriia Dudakova,Fatima Kline,KO/TKO,2,4:27,567,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,12,Light Heavyweight,f,Magomed Gadzhiyasulov,Bruno Lopes,Bruno Lopes,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,11,Women's Flyweight,f,Ernesta Kareckaite,Nicolle Caliari,Ernesta Kareckaite,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,10,Welterweight,f,Preston Parsons,Jacobe Smith,Jacobe Smith,KO/TKO,1,1:13,73,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,9,Lightweight,f,Thiago Moisés,Trey Ogden,Thiago Moisés,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,8,Middleweight,f,Marco Tulio,Ihor Potieria,Marco Tulio,KO/TKO,1,3:04,184,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,prelims1,7,Flyweight,f,Jose Johnson,Felipe Bunes,Felipe Bunes,Submission,1,2:04,124,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,main,6,Welterweight,f,Punahele Soriano,Uroš Medić,Punahele Soriano,KO/TKO,1,0:31,31,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,main,5,Featherweight,f,Christian Rodriguez,Austin Bashi,Christian Rodriguez,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,main,4,Middleweight,f,Chris Curtis,Roman Kopylov,Roman Kopylov,KO/TKO,3,4:59,899,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,main,3,Middleweight,f,Cesar Almeida,Abdul Razak Alhassan,Cesar Almeida,KO/TKO,1,4:16,256,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,main,2,Welterweight,f,Santiago Ponzinibbio,Carlston Harris,Santiago Ponzinibbio,KO/TKO,3,3:13,793,3
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,main,1,Women's Strawweight,f,Mackenzie Dern,Amanda Ribas,Mackenzie Dern,Submission,3,4:56,896,5
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims2,13,Flyweight,f,Tagir Ulanbekov,Clayton Carpenter,Tagir Ulanbekov,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims2,12,Bantamweight,f,Ricky Turcios,Bernardo Sopaj,Bernardo Sopaj,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims2,11,Bantamweight,f,Rinya Nakamura,Muin Gafurov,Muin Gafurov,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims2,10,Women's Bantamweight,f,Karol Rosa,Ailin Perez,Ailin Perez,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims1,9,Lightweight,f,Grant Dawson,Diego Ferreira,Grant Dawson,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims1,8,Light Heavyweight,f,Bogdan Guskov,Billy Elekana,Bogdan Guskov,Submission,2,3:33,513,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims1,7,Middleweight,f,Zach Reese,Azamat Bekoev,Azamat Bekoev,KO/TKO,1,3:04,184,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,prelims1,6,Bantamweight,f,Payton Talbott,Raoni Barcelos,Raoni Barcelos,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,main,5,Middleweight,f,Kevin Holland,Reinier de Ridder,Reinier de Ridder,Submission,1,3:31,211,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,main,4,Heavyweight,f,Jailton Almeida,Serghei Spivac,Jailton Almeida,KO/TKO,1,4:53,293,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,main,3,Light Heavyweight,f,Jiří Procházka,Jamahal Hill,Jiří Procházka,KO/TKO,3,3:01,781,3
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,main,2,Bantamweight,t,Merab Dvalishvili,Umar Nurmagomedov,Merab Dvalishvili,Decision - Unanimous,5,5:00,1500,5
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,main,1,Lightweight,t,Islam Makhachev,Renato Moicano,Islam Makhachev,Submission,1,4:05,245,5
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,prelims1,11,Heavyweight,f,Hamdy Abdelwahab,Jamal Pogues,Hamdy Abdelwahab,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,prelims1,10,Featherweight,f,Bogdan Grad,Lucas Alexander,Bogdan Grad,KO/TKO,2,4:22,562,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,prelims1,9,Women's Flyweight,f,Jasmine Jasudavicius,Mayra Bueno Silva,Jasmine Jasudavicius,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,prelims1,8,Lightweight,f,Terrance McKinney,Damir Hadzovic,Terrance McKinney,KO/TKO,1,2:01,121,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,prelims1,7,Heavyweight,f,Shamil Gaziev,Thomas Petersen,Shamil Gaziev,KO/TKO,1,3:12,192,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,prelims1,6,Featherweight,f,Muhammad Naimov,Kaan Ofli,Muhammad Naimov,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,main,5,Lightweight,f,Farés Ziam,Mike Davis,Farés Ziam,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,main,4,Bantamweight,f,Said Nurmagomedov,Vinicius Oliveira,Vinicius Oliveira,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,main,3,Heavyweight,f,Sergei Pavlovich,Jairzinho Rozenstruik,Sergei Pavlovich,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,main,2,Middleweight,f,Shara Magomedov,Michael Page,Michael Page,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,main,1,Middleweight,f,Israel Adesanya,Nassourdine Imavov,Nassourdine Imavov,KO/TKO,2,0:30,330,5
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims2,12,Lightweight,f,Quillan Salkilld,Anshul Jubli,Quillan Salkilld,KO/TKO,1,0:19,19,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims2,11,Welterweight,f,Jonathan Micallef,Kevin Jousset,Jonathan Micallef,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims2,10,Lightweight,f,Rongzhu,Kody Steele,Rongzhu,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims1,9,Bantamweight,f,Colby Thicknesse,Aleksandre Topuria,Aleksandre Topuria,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims1,8,Women's Flyweight,f,Wang Cong,Bruna Brasil,Wang Cong,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims1,7,Lightweight,f,Tom Nolan,Viacheslav Borshchev,Tom Nolan,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,prelims1,6,Featherweight,f,Jack Jenkins,Gabriel Santos,Gabriel Santos,Submission,3,2:06,726,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,main,5,Welterweight,f,Jake Matthews,Francisco Prado,Jake Matthews,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,main,4,Light Heavyweight,f,Jimmy Crute,Rodolfo Bellato,,Draw,3,5:00,900,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,main,3,Heavyweight,f,Justin Tafa,Tallison Teixeira,Tallison Teixeira,KO/TKO,1,0:35,35,3
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,main,2,Women's Strawweight,t,Zhang Weili,Tatiana Suarez,Zhang Weili,Decision - Unanimous,5,5:00,1500,5
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,main,1,Middleweight,t,Dricus Du Plessis,Sean Strickland,Dricus Du Plessis,Decision - Unanimous,5,5:00,1500,5
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,12,Women's Bantamweight,f,Julia Avila,Jacqueline Cavalcanti,Jacqueline Cavalcanti,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,11,Heavyweight,f,Don'Tale Mayes,Valter Walker,Valter Walker,Submission,1,1:17,77,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,10,Bantamweight,f,Vince Morales,Elijah Smith,Elijah Smith,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,9,Welterweight,f,Gabriel Bonfim,Khaos Williams,Gabriel Bonfim,Submission,2,4:58,598,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,8,Flyweight,f,Rafael Estevam,Jesus Aguilar,Rafael Estevam,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,7,Women's Strawweight,f,Angela Hill,Ketlen Souza,Angela Hill,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,prelims1,6,Featherweight,f,Connor Matthews,Jose Miguel Delgado,Jose Miguel Delgado,KO/TKO,1,2:58,178,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,main,5,Middleweight,f,Rodolfo Vieira,Andre Petroski,Andre Petroski,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,main,4,Lightweight,f,Ismael Bonfim,Nazim Sadykhov,Nazim Sadykhov,TKO - Doctor's Stoppage,1,5:00,300,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,main,3,Middleweight,f,Edmen Shahbazyan,Dylan Budka,Edmen Shahbazyan,KO/TKO,1,1:35,95,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,main,2,Featherweight,f,Calvin Kattar,Youssef Zalal,Youssef Zalal,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,main,1,Middleweight,f,Jared Cannonier,Gregory Rodrigues,Jared Cannonier,KO/TKO,4,0:21,921,5
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,12,Light Heavyweight,f,Modestas Bukauskas,Raffael Cerqueira,Modestas Bukauskas,KO/TKO,1,2:12,132,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,11,Middleweight,f,Nursulton Ruziboev,Eric McConico,Nursulton Ruziboev,KO/TKO,2,0:33,333,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,10,Catch Weight,f,Nikolay Veretennikov,Austin Vanderford,Austin Vanderford,KO/TKO,2,4:13,553,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,9,Bantamweight,f,Ricky Simon,Javid Basharat,Ricky Simon,KO/TKO,1,3:58,238,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,8,Middleweight,f,Mansur Abdul-Malik,Nick Klein,Mansur Abdul-Malik,KO/TKO,2,3:24,504,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,7,Featherweight,f,Andre Fili,Melquizael Costa,Melquizael Costa,Submission,1,4:30,270,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,prelims1,6,Light Heavyweight,f,Ion Cutelaba,Ibo Aslan,Ion Cutelaba,Submission,1,2:51,171,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,main,5,Light Heavyweight,f,Alonzo Menifield,Julius Walker,Alonzo Menifield,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,main,4,Featherweight,f,Jean Silva,Melsik Baghdasaryan,Jean Silva,KO/TKO,1,4:15,255,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,main,3,Catch Weight,f,Rob Font,Jean Matsumoto,Rob Font,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,main,2,Middleweight,f,Brendan Allen,Anthony Hernandez,Anthony Hernandez,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,main,1,Bantamweight,f,Henry Cejudo,Song Yadong,Song Yadong,Decision - Unanimous,3,5:00,900,5
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,prelims1,10,Flyweight,f,Charles Johnson,Ramazan Temirov,Ramazan Temirov,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,prelims1,9,Women's Flyweight,f,Andrea Lee,JJ Aldrich,JJ Aldrich,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,prelims1,8,Featherweight,f,Danny Silva,Lucas Almeida,Danny Silva,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,prelims1,7,Featherweight,f,Ricardo Ramos,Chepe Mariscal,Chepe Mariscal,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,prelims1,6,Heavyweight,f,Austen Lane,Mario Pinto,Mario Pinto,KO/TKO,2,0:39,339,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,main,5,Welterweight,f,Danny Barlow,Sam Patterson,Sam Patterson,KO/TKO,1,3:10,190,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,main,4,Featherweight,f,Hyder Amil,William Gomis,Hyder Amil,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,main,3,Lightweight,f,Nasrat Haqparast,Esteban Ribovics,Nasrat Haqparast,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,main,2,Middleweight,f,Cody Brundage,Julian Marquez,Cody Brundage,KO/TKO,1,4:45,285,3
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,main,1,Flyweight,f,Manel Kape,Asu Almabayev,Manel Kape,KO/TKO,3,2:16,736,5
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,prelims2,10,Middleweight,f,Djorden Santos,Ozzy Diaz,Ozzy Diaz,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,prelims1,9,Featherweight,f,Mairon Santos,Francis Marshall,Mairon Santos,Decision - Split,3,5:00,900,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,prelims1,8,Welterweight,f,Alex Morono,Carlos Leal,Carlos Leal,KO/TKO,1,4:16,256,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,prelims1,7,Middleweight,f,Brunno Ferreira,Armen Petrosyan,Brunno Ferreira,Submission,2,4:27,567,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,prelims1,6,Flyweight,f,Joshua Van,Rei Tsuruya,Joshua Van,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,main,5,Lightweight,f,King Green,Mauricio Ruffy,Mauricio Ruffy,KO/TKO,1,2:07,127,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,main,4,Women's Strawweight,f,Amanda Lemos,Iasmin Lucindo,Amanda Lemos,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,main,3,Lightweight,f,Jalin Turner,Ignacio Bahamondes,Ignacio Bahamondes,Submission,1,2:29,149,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,main,2,Lightweight,f,Justin Gaethje,Rafael Fiziev,Justin Gaethje,Decision - Unanimous,3,5:00,900,3
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,main,1,Light Heavyweight,t,Alex Pereira,Magomed Ankalaev,Magomed Ankalaev,Decision - Unanimous,5,5:00,1500,5
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,prelims1,13,Women's Flyweight,f,Yuneisy Duben,Carli Judice,Carli Judice,KO/TKO,1,1:40,100,3
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,prelims1,12,Women's Bantamweight,f,Josiane Nunes,Priscila Cachoeira,Priscila Cachoeira,KO/TKO,1,2:46,166,3
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,prelims1,11,Flyweight,f,Daniel Barez,Andre Lima,Andre Lima,Submission,3,3:05,785,3
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,prelims1,10,Women's Strawweight,f,Stephanie Luciano,Sam Hughes,Sam Hughes,Decision - Split,3,5:00,900,3
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,prelims1,9,Bantamweight,f,Carlos Vera,Josias Musasa,Carlos Vera,Submission,1,3:16,196,3
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,prelims1,8,Bantamweight,f,SuYoung You,AJ Cunningham,SuYoung You,Decision - Unanimous,3,5:00,900,3

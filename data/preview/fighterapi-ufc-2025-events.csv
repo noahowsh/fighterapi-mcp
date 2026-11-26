@@ -1,0 +1,53 @@
+league,season,name,date,venue,city,country,contender_series,fights
+ufc,2025,UFC Fight Night: Dern vs Ribas 2,2025-01-11,Meta APEX,Las Vegas,USA,f,14
+ufc,2025,UFC 311: Makhachev vs. Moicano,2025-01-18,Intuit Dome,Inglewood,USA,f,13
+ufc,2025,UFC Fight Night: Adesanya vs. Imavov,2025-02-01,anb Arena,Riyadh,Saudi Arabia,f,11
+ufc,2025,UFC 312: Du Plessis vs. Strickland 2,2025-02-08,Qudos Bank Arena,Sydney,Australia,f,12
+ufc,2025,UFC Fight Night: Cannonier vs. Rodrigues,2025-02-15,Meta APEX,Las Vegas,USA,f,12
+ufc,2025,UFC Fight Night: Cejudo vs. Song,2025-02-22,Climate Pledge Arena,Seattle,USA,f,12
+ufc,2025,UFC Fight Night: Kape vs. Almabayev,2025-03-01,Meta APEX,Las Vegas,USA,f,10
+ufc,2025,UFC 313: Pereira vs. Ankalaev,2025-03-08,T-Mobile Arena,Las Vegas,USA,f,10
+ufc,2025,UFC Fight Night: Vettori vs. Dolidze 2,2025-03-15,Meta APEX,Las Vegas,USA,f,13
+ufc,2025,UFC Fight Night: Edwards vs. Brady,2025-03-22,O2 Arena (ENG),London,England,f,13
+ufc,2025,UFC Fight Night: Moreno vs. Erceg,2025-03-29,Mexico City Arena,Mexico City,Mexico,f,12
+ufc,2025,UFC Fight Night: Emmett vs. Murphy,2025-04-05,Meta APEX,Las Vegas,USA,f,12
+ufc,2025,UFC 314: Volkanovski vs. Lopes,2025-04-12,Kaseya Center,Miami,USA,f,13
+ufc,2025,UFC Fight Night: Machado Garry vs. Prates,2025-04-26,T-Mobile Center,Kansas City,USA,f,14
+ufc,2025,UFC Fight Night: Sandhagen vs. Figueiredo,2025-05-03,Wells Fargo Arena,Des Moines,USA,f,12
+ufc,2025,UFC 315: Muhammad vs. Della Maddalena,2025-05-10,Bell Centre,Montreal,Canada,f,12
+ufc,2025,UFC Fight Night: Burns vs. Morales,2025-05-17,Meta APEX,Las Vegas,USA,f,11
+ufc,2025,UFC Fight Night: Blanchfield vs. Barber,2025-05-31,Meta APEX,Las Vegas,USA,f,9
+ufc,2025,UFC 316: Dvalishvili vs. O'Malley 2,2025-06-07,Prudential Center,Newark,USA,f,13
+ufc,2025,UFC Fight Night: Usman vs. Buckley,2025-06-14,State Farm Arena,Atlanta,USA,f,13
+ufc,2025,UFC Fight Night: Hill vs. Rountree Jr.,2025-06-21,Baku Crystal Hall,Baku,Azerbaijan,f,12
+ufc,2025,UFC 317: Topuria vs. Oliveira,2025-06-28,T-Mobile Arena,Las Vegas,USA,f,11
+ufc,2025,UFC Fight Night: Lewis vs. Teixeira,2025-07-12,Bridgestone Arena,Nashville,USA,f,12
+ufc,2025,UFC 318: Holloway vs. Poirier 3,2025-07-19,Smoothie King Center,New Orleans,USA,f,14
+ufc,2025,UFC Fight Night: Whittaker vs. de Ridder,2025-07-26,Etihad Arena,Abu Dhabi,United Arab Emirates,f,12
+ufc,2025,UFC Fight Night: Taira vs. Park,2025-08-02,Meta APEX,Las Vegas,USA,f,12
+ufc,2025,UFC Fight Night: Dolidze vs. Hernandez,2025-08-09,Meta APEX,Las Vegas,USA,f,12
+ufc,2025,"Dana White's Contender Series: Season 9, Week 1",2025-08-12,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,UFC 319: Du Plessis vs. Chimaev,2025-08-16,United Center,Chicago,USA,f,12
+ufc,2025,"Dana White's Contender Series: Season 9, Week 2",2025-08-19,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,UFC Fight Night: Walker vs. Zhang,2025-08-23,Mercedes-Benz Arena,Shanghai,China,f,12
+ufc,2025,"Dana White's Contender Series: Season 9, Week 3",2025-08-26,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,"Dana White's Contender Series: Season 9, Week 4",2025-09-02,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,UFC Fight Night: Imavov vs. Borralho,2025-09-06,Accor Arena,Paris,France,f,13
+ufc,2025,"Dana White's Contender Series: Season 9, Week 5",2025-09-09,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,Noche UFC: Lopes vs. Silva,2025-09-13,Frost Bank Center,San Antonio,USA,f,14
+ufc,2025,"Dana White's Contender Series: Season 9, Week 6",2025-09-16,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,"Dana White's Contender Series: Season 9, Week 7",2025-09-23,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,UFC Fight Night: Ulberg vs. Reyes,2025-09-27,RAC Arena (AUS),Perth,Australia,f,12
+ufc,2025,"Dana White's Contender Series: Season 9, Week 8",2025-09-30,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,UFC 320: Ankalaev vs. Pereira 2,2025-10-04,T-Mobile Arena,Las Vegas,USA,f,14
+ufc,2025,"Dana White's Contender Series: Season 9, Week 9",2025-10-07,Meta APEX,Las Vegas,USA,t,5
+ufc,2025,UFC Fight Night: Oliveira vs. Gamrot,2025-10-11,Farmasi Arena,Rio De Janeiro,Brazil,f,12
+ufc,2025,"Dana White's Contender Series: Season 9, Week 10",2025-10-14,Meta APEX,Las Vegas,USA,t,6
+ufc,2025,UFC Fight Night: de Ridder vs. Allen,2025-10-18,Rogers Arena,Vancouver,Canada,f,13
+ufc,2025,UFC 321: Aspinall vs. Gane,2025-10-25,Etihad Arena,Abu Dhabi,United Arab Emirates,f,13
+ufc,2025,UFC Fight Night: Garcia vs. Onama,2025-11-01,Meta APEX,Las Vegas,USA,f,13
+ufc,2025,UFC Fight Night: Bonfim vs. Brown,2025-11-08,Meta APEX,Las Vegas,USA,f,12
+ufc,2025,UFC 322: Della Maddalena vs. Makhachev,2025-11-15,Madison Square Garden,New York,USA,f,14
+ufc,2025,UFC Fight Night: Tsarukyan vs. Hooker,2025-11-22,ABHA Arena,Doha,Qatar,f,14
+ufc,2025,UFC 323: Dvalishvili vs. Yan 2,2025-12-06,T-Mobile Arena,Las Vegas,USA,f,14
+ufc,2025,UFC Fight Night: Royval vs. Kape,2025-12-13,Meta APEX,Las Vegas,USA,f,12
