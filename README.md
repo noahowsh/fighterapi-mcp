@@ -40,7 +40,7 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 
 ## Skills
 
-5 Claude skills for UFC ship in this repo, plus 15 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live FighterAPI tool call, and odds are information only: no stakes, no picks.
+4 Claude skills for UFC ship in this repo, plus 13 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live FighterAPI tool call, and odds are information only: no stakes, no picks.
 
 Claude Code:
 
@@ -57,10 +57,9 @@ Codex: `codex plugin marketplace add sports-data-hq/fighterapi-mcp`. Any agent t
 | `ufc-card-preview` | A whole card on one page: records, our Elo and the market's probability for every bout |
 | `ufc-elo-baseline` | The Elo gap between two fighters as an expected win probability, beside the market as information |
 | `ufc-fight-preview` | One-page fight preview: records by method, striking and grappling rates, Elo, opposition and the line |
-| `ufc-fighter-profile` | A fighter's record by method, career rates per 15 minutes, recent fights and rating history |
-| `ufc-finish-profile` | How a fighter wins and loses: method and round, finish rate, against the weight class |
+| `ufc-fighter-profile` | A fighter's record by method, finish rates by method and round, career rates per 15 minutes, recent fights and ratings |
 
-The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `season-pack-offline`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
+The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `season-pack-offline`, `sports-data-preflight`, `visualization`, `walk-forward-validation`.
 
 Real answers on live data, with the credits each used: [example answers](https://github.com/sports-data-hq/sportsdatahq-skills/tree/main/docs/examples/mma).
 

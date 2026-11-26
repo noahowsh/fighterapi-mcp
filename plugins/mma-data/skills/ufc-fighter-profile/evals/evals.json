@@ -10,11 +10,18 @@
       ]
     },
     {
-      "prompt": "How does Pereira finish fights?",
+      "prompt": "How does Islam Makhachev win his fights?",
       "expect": [
-        "wins and losses by method",
-        "rates only if UFC sheets exist",
-        "no fight-specific prediction"
+        "get_fighter and get_fighter_fights called",
+        "method counts with denominators",
+        "computed figures labelled as computed"
+      ]
+    },
+    {
+      "prompt": "Is this fighter chinny?",
+      "expect": [
+        "declines to measure chin",
+        "reports losses by KO/TKO with counts"
       ]
     },
     {
@@ -33,23 +40,23 @@
       "what is his record by method",
       "strikes landed per minute for Pereira",
       "is he a finisher",
-      "recent opposition for Chandler",
       "does he wrestle",
-      "what is Jon Jones' reach and stance",
-      "career takedown defense for Oliveira",
-      "who has he fought lately"
+      "how does Poirier win his fights",
+      "how often does she go to decision",
+      "is he chinny",
+      "has she ever been submitted"
     ],
     "should_not": [
       "preview Saturday's main event",
       "what does Elo say about this fight",
       "UFC card this weekend",
       "who leads the UFC in strikes",
-      "moneyline movement for the fight",
+      "moneyline movement for the main event",
       "MMA betting strategy",
       "NBA player profile",
       "build a fight predictor",
-      "who won last night",
-      "tennis player profile"
+      "takedown defense leaders",
+      "how do UFC scorecards work"
     ]
   }
 }
