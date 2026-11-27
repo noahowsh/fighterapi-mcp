@@ -1,7 +1,7 @@
 {
   "name": "mma-data",
   "displayName": "FighterAPI: ufc and mma skills",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "UFC and MMA analysis skills on FighterAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the FighterAPI MCP server.",
   "author": {
     "name": "SportsDataHQ",
@@ -17,5 +17,7 @@
     "elo",
     "sports-data",
     "fighterapi"
-  ]
+  ],
+  "privacyPolicyUrl": "https://fighterapi.com/privacy",
+  "icon": ".claude-plugin/icon.png"
 }
